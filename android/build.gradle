@@ -25,6 +25,7 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
+    namespace 'com.actionsheet'
     compileSdkVersion safeExtGet('compileSdkVersion', 25)
     buildToolsVersion safeExtGet('buildToolsVersion', '28.0.3')
 
